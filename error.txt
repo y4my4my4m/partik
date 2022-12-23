@@ -1,0 +1,34 @@
+/usr/bin/ld: /tmp/ccMtMc6u.o: warning: relocation against `player_sprite' in read-only section `.text'
+/usr/bin/ld: /tmp/cch8l2dt.o: in function `render_player':
+player.c:(.text+0x157): undefined reference to `player_sprite'
+/usr/bin/ld: /tmp/cch8l2dt.o: in function `jump':
+player.c:(.text+0x1ae): undefined reference to `game_sounds'
+/usr/bin/ld: player.c:(.text+0x1c0): undefined reference to `Mix_PlayChannel'
+/usr/bin/ld: /tmp/ccGem47f.o: in function `render_enemy':
+enemy.c:(.text+0x1dc): undefined reference to `enemy_sprites'
+/usr/bin/ld: /tmp/ccMtMc6u.o: in function `load_assets':
+asset.c:(.text+0x31): undefined reference to `player_sprite'
+/usr/bin/ld: asset.c:(.text+0x38): undefined reference to `player_sprite'
+/usr/bin/ld: asset.c:(.text+0x9a): undefined reference to `enemy_sprites'
+/usr/bin/ld: asset.c:(.text+0xc7): undefined reference to `enemy_sprites'
+/usr/bin/ld: asset.c:(.text+0xf4): undefined reference to `enemy_sprites'
+/usr/bin/ld: asset.c:(.text+0x111): undefined reference to `enemy_sprites'
+/usr/bin/ld: asset.c:(.text+0x163): undefined reference to `Mix_LoadMUS'
+/usr/bin/ld: asset.c:(.text+0x16a): undefined reference to `game_music'
+/usr/bin/ld: asset.c:(.text+0x171): undefined reference to `game_music'
+/usr/bin/ld: asset.c:(.text+0x1b5): undefined reference to `Mix_LoadWAV'
+/usr/bin/ld: asset.c:(.text+0x1bc): undefined reference to `game_sounds'
+/usr/bin/ld: asset.c:(.text+0x1cb): undefined reference to `Mix_LoadWAV'
+/usr/bin/ld: asset.c:(.text+0x1d2): undefined reference to `game_sounds'
+/usr/bin/ld: asset.c:(.text+0x1e1): undefined reference to `Mix_LoadWAV'
+/usr/bin/ld: asset.c:(.text+0x1e8): undefined reference to `game_sounds'
+/usr/bin/ld: asset.c:(.text+0x205): undefined reference to `game_sounds'
+/usr/bin/ld: /tmp/ccMtMc6u.o: in function `unload_assets':
+asset.c:(.text+0x25b): undefined reference to `player_sprite'
+/usr/bin/ld: asset.c:(.text+0x280): undefined reference to `enemy_sprites'
+/usr/bin/ld: asset.c:(.text+0x29d): undefined reference to `game_music'
+/usr/bin/ld: asset.c:(.text+0x2a5): undefined reference to `Mix_FreeMusic'
+/usr/bin/ld: asset.c:(.text+0x2c2): undefined reference to `game_sounds'
+/usr/bin/ld: asset.c:(.text+0x2ce): undefined reference to `Mix_FreeChunk'
+/usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+collect2: エラー: ld はステータス 1 で終了しました
