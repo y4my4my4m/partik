@@ -31,6 +31,8 @@ int main(int argc, char* argv[]) {
 
     // Render game state
     render_game_state(&game_state);
+
+    SDL_UpdateWindowSurface(game_window);
   }
 
   // Clean up game assets
